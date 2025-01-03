@@ -1,0 +1,84 @@
+/* Pengaturan umum */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #89898f, #333); /* Gradasi dari biru ke biru muda */
+    color: #333;
+    padding: 20px;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+/* Pengaturan profil */
+.profile-settings-section {
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+
+.profile-settings-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+/* Gaya untuk label */
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #252424;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Gaya untuk input */
+input[type="text"],
+input[type="email"],
+input[type="file"],
+textarea {
+    width: 100%;
+    padding: 14px 16px; /* Menambahkan padding ekstra di sisi kanan dan kiri */
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    box-sizing: border-box; /* Memastikan padding tidak mempengaruhi lebar */
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus,
+input[type="file"]:focus {
+    border-color: #333;
+    outline: none;
+}
+
+/* Gaya untuk tombol */
+button {
+    width: 100%;
+    height: 45px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #555;
+}

@@ -1,0 +1,387 @@
+/* Global Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d3d6d6; /* Warna background lebih lembut */
+    color: #333;
+}
+/* Limit Section */
+
+.limit-section {
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+
+
+/* Limit Card */
+.limit-card {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.limit-item {
+    text-align: center;
+    color: #333;
+    text-decoration: none; /* Menghapus garis bawah */
+}
+
+.limit-item img {
+    width: 40px;
+    margin-bottom: 8px;
+}
+
+.limit-item p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+.limit-item strong {
+    font-size: 15px;
+    color: #27ae60; /* Hijau untuk angka */
+    margin-top: 4px;
+    display: block;
+}
+
+.limit-item:hover {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.new-badge {
+    background-color: #ff6f00;
+    color: white;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 12px;
+    margin-left: 4px;
+}
+
+/* Reward Banner */
+.reward-banner {
+    display: flex;
+    align-items: center;
+    background-color: #ffe9e2;
+    padding: 15px;
+    color: #d32f2f;
+    font-size: 16px;
+    text-decoration: none; /* Menghapus garis bawah */
+}
+
+.reward-banner img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.reward-banner p {
+    flex-grow: 1;
+    margin: 0;
+    font-size: 14px;
+}
+
+.reward-banner .arrow {
+    color: #d32f2f;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.reward-banner:hover {
+    background-color: #ffd6cc;
+    transition: 0.3s;
+}
+
+/* Section Cara Penggunaan */
+.usage-section {
+    background: linear-gradient(to right, #89898f, #333); /* Gradasi warna dari oranye ke merah */
+    padding: 40px 20px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan ringan untuk kedalaman */
+}
+
+.usage-container {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    max-width: 800px;
+    margin: 0 auto; /* Agar kontainer di tengah halaman */
+}
+
+.usage-guide h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.usage-guide p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.usage-guide ul {
+    list-style: none;
+    padding: 0;
+}
+
+.usage-guide ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.usage-guide ul li strong {
+    color: #555; /* Warna oranye untuk elemen penting */
+}
+
+/* Responsif untuk layar kecil */
+@media (max-width: 768px) {
+    .usage-section {
+        padding: 30px 10px;
+    }
+
+    .usage-container {
+        padding: 20px;
+    }
+}
+
+
+/* Shop Section */
+.shop-online {
+    margin-top: 20px;
+}
+
+.shop-online h2 {
+    margin-bottom: 15px;
+    color: #0066cc;
+}
+
+.shop-links {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.shop-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.shop-item img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+    border-radius: 8px; /* Tambahkan elemen estetis */
+    border: 1px solid #ddd; /* Border lembut */
+}
+
+.shop-item:hover {
+    transform: scale(1.1);
+    color: #0066cc;
+}
+/* Section Shop Online */
+.shop-online {
+    background: linear-gradient(to right, #89898f, #333); /* Gradasi warna menarik */
+    padding: 40px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan untuk kedalaman */
+}
+
+.shop-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Membuat elemen bisa wrap pada layar kecil */
+}
+
+.shop-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 150px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: #333;
+}
+
+.shop-item:hover {
+    transform: translateY(-10px); /* Efek hover naik sedikit */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Menambahkan bayangan lebih besar */
+}
+
+.shop-item img {
+    max-width: 100%;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.shop-item span {
+    font-weight: bold;
+    color: #333;
+    font-size: 1rem;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    .shop-links {
+        flex-direction: column;
+        align-items: center;
+    }
+    .shop-item {
+        width: 200px; /* Membuat ukuran item lebih besar pada layar kecil */
+        margin-bottom: 20px;
+    }
+}
+
+/* Info Menarik Terbaru Section */
+
+.info-section {
+    background: linear-gradient(to right, #f4f4f9, #e9ecef); /* Latar belakang dengan gradasi */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Info Banner Heading */
+.info-banner h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Carousel Container */
+.carousel-container {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Carousel */
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    animation: slide-left 12s infinite; /* Menambahkan animasi untuk pergerakan otomatis */
+}
+
+.carousel-item {
+    min-width: 100%;
+    position: relative;
+}
+
+.carousel-item img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-item p {
+    font-size: 1rem;
+    color: #fff;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 350px;
+}
+
+/* Animasi untuk menggeser carousel ke kiri */
+@keyframes slide-left {
+    0% {
+        transform: translateX(0);
+    }
+    33% {
+        transform: translateX(-100%);
+    }
+    66% {
+        transform: translateX(-200%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* Responsif Design */
+@media (max-width: 768px) {
+    .info-banner h2 {
+        font-size: 1.5rem;
+    }
+
+    .carousel-item p {
+        font-size: 0.9rem;
+        padding: 8px;
+        width: 90%;
+    }
+}
+
+
+
+
+/* Bottom Navigation */
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.bottom-nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.bottom-nav ul li {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.bottom-nav ul li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.bottom-nav ul li a:hover {
+    color: #70767c;
+}
+
+.nav-icon {
+    font-size: 24px;
+}
+
+.nav-label {
+    font-size: 12px;
+    margin-top: 5px;
+}

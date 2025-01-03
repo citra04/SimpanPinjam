@@ -1,0 +1,120 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    display: flex; /* Gunakan flexbox untuk header */
+    justify-content: space-between; /* Memisahkan logo dan navbar ke kiri dan kanan */
+    align-items: center; /* Menyusun logo dan navbar secara vertikal */
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    width: 50px; /* Ukuran logo */
+    height: 50px; /* Menjaga logo tetap bulat */
+    border-radius: 50%; /* Membuat logo menjadi bulat */
+    margin-right: 10px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+/* Navbar Styles */
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.navbar li {
+    margin-left: 20px; /* Memberikan jarak antar item */
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center; /* Menjaga icon dan teks tetap sejajar */
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.navbar .nav-icon {
+    font-size: 40px; /* Ukuran ikon lebih kecil dari sebelumnya */
+    margin-right: 8px; /* Memberikan ruang antara ikon dan teks */
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.guide-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.guide-section h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.guide-section p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.guide-section ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.guide-section li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

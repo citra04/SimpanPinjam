@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Aplikasi Simpan Pinjam</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+        <img src="../logo.jpeg" alt="Logo Simpan Pinjam" class="logo-img">
+        <h2>Simpan Pinjam</h2>
+    </div>
+    <nav class="navbar">
+        <ul id="nav-links">
+            <li>
+                <a href="../index/profil.html" class="nav-item">
+                    <span class="icon">
+                        <i class="fas fa-user-circle"></i> <!-- Ikon Profil -->
+                    </span>
+                    <span class="text">Profil</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+  </header>
+
+  <!-- Login form -->
+  <div class="login-container">
+    <h1>Login</h1>
+    <form id="login-form">
+      <label for="username">Username:</label>
+      <input
+        type="text"
+        id="username"
+        name="username"
+        required
+        placeholder="Masukkan username"
+      />
+
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        required
+        placeholder="Masukkan password"
+      />
+
+      <button type="submit">Login</button>
+    </form>
+    <p id="error-message" class="error"></p>
+  </div>
+
+  <!-- Footer with Copyright -->
+  <footer>
+    <p>&copy; citra septia 2025.</p>
+  </footer>
+
+  <script src="../js/login.js"></script>
+</body>
+</html>
